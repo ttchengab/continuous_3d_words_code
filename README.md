@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ## Download Pretrained Checkpoints
 
-Please download the checkpoints from [here](https://drive.google.com/drive/folders/1Mzmy9t-ERxvLcyma9k3GYCd5M8czb5n6?usp=share_link) and put it into the `ckpts/` directory.
+Please download the checkpoints from [here](https://drive.google.com/drive/folders/1Mzmy9t-ERxvLcyma9k3GYCd5M8czb5n6?usp=share_link), then create a `ckpts/` directory and put the checkpoints in.
 
 Note that each task requires two checkpoints. `*sd.safetensors` is the LoRA checkpoint used for the Stable Diffusion, whereas `*mlp.pt` is the MLP checkpoint for continuous 3D Words.
 
