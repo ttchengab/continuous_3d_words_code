@@ -7,7 +7,7 @@
 ## Introduction
 We present Continuous 3D Words, a way to encode fine-grained attributes like illumination, non-rigid shape changes, and camera parameters as special tokens for text-to-image generation.
 
-Part of the code is adapted from the LoRA implementation from cloneofsimo which can be found [here](https://github.com/cloneofsimo/lora). Please comply to their LICENSE accordingly.
+Code in `lora_diffusion/` is adapted from the LoRA implementation from cloneofsimo which can be found [here](https://github.com/cloneofsimo/lora). Please comply to their LICENSE accordingly.
 
 ## Installation
 
