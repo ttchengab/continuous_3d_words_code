@@ -34,7 +34,7 @@ All codes (unless otherwise specified) complies to the Adobe Research License.
 Code in `lora_diffusion/` is adapted from the LoRA implementation from cloneofsimo which can be found [here](https://github.com/cloneofsimo/lora). Please comply to their LICENSE accordingly.
 
 ## Citation
-If you find this work helpful in your research/applciations, please cite using the following BibTeX:
+If you find this work helpful in your research/applications, please cite using the following BibTeX:
 ```bibtex
 @article{cheng2023C3D,
   title={Learning Continuous 3D Words for Text-to-Image Generation},
