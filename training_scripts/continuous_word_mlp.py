@@ -13,15 +13,6 @@ strictly forbidden unless prior written permission is obtained from Adobe.
 
 import torch
 import torch.nn as nn
-from diffusers import StableDiffusionPipeline, EulerAncestralDiscreteScheduler
-from lora_diffusion import tune_lora_scale, patch_pipe
-import torch
-import os
-from transformers import CLIPTextModel, CLIPTokenizer
-import torch.nn as nn
-import random
-from torch.utils.data import DataLoader
-from torch.utils.data import Dataset
 
 
 class continuous_word_mlp(nn.Module):
