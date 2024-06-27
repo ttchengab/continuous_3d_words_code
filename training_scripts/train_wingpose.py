@@ -1054,7 +1054,7 @@ def main(args):
                 x = torch.Tensor(
                     [torch.sin(2 * torch.pi * p), torch.cos(2 * torch.pi * p)]).cuda()
 
-                mlp_emb = viewpoint_model(torch.unsqueeze(x, dim=0)).squeeze(0)
+                mlp_emb = continuous_word_model(torch.unsqueeze(x, dim=0)).squeeze(0)
                 text_encoder.get_input_embeddings().weight = torch.nn.Parameter(initial_weight, requires_grad=False)
                 
                 text_encoder.get_input_embeddings().weight[batch["input_ids"][0][2]] = mlp_emb
